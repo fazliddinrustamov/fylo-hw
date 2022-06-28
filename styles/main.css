@@ -1,0 +1,1358 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v27-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v27-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/raleway-v27-latin-700.woff2") format("woff2"), url("../fonts/raleway-v27-latin-700.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v29-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v29-latin-regular.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #1B2330;
+}
+
+.logo-line {
+  width: 1280px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo {
+  width: 176px;
+  height: 52px;
+  transition: 0.5s ease;
+  display: block;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.logo-list {
+  list-style-type: none;
+  width: 270px;
+  height: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-text {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+  transition: 0.6s ease;
+}
+
+.logo-text:hover {
+  color: aqua;
+}
+
+@media only screen and (max-width: 1620px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .logo-line {
+    width: 1000px;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .logo-line {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .logo-line {
+    width: 380px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 50px;
+  }
+
+  .logo-list {
+    padding: 0;
+    width: 180px;
+  }
+
+  .logo-text {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .logo-line {
+    width: 260px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 30px;
+  }
+
+  .logo-list {
+    padding: 0;
+    width: 140px;
+  }
+
+  .logo-text {
+    font-size: 10px;
+  }
+}
+.intro {
+  background-color: #1B2330;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.intro-content {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.intro-heading {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  width: 734px;
+  height: 120px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.intro-text {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 530px;
+  height: 90px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  margin-bottom: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-button {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+  padding: 18px 90px;
+  border: 1px solid rgb(99, 225, 217);
+  background-color: rgb(99, 225, 217);
+  border-radius: 28px;
+  transition: 0.5s ease;
+}
+
+.intro-button:hover {
+  background-color: rgb(52, 160, 205);
+  border: 1px solid rgb(52, 160, 205);
+}
+
+.intro-button:active {
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+
+@media only screen and (max-width: 1050px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .intro-content {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-img {
+    width: 380px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-heading {
+    width: 380px;
+    height: 80px;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .intro-text {
+    margin: 0;
+    width: 380px;
+    margin-bottom: 55px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .intro-content {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-img {
+    width: 260px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-heading {
+    width: 260px;
+    height: 110px;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .intro-text {
+    margin: 0;
+    width: 260px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .intro-button {
+    padding: 16px 80px;
+  }
+}
+.hero {
+  background-color: #1B2330;
+}
+
+.hero-list {
+  width: 880px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-item {
+  width: 350px;
+  height: 215px;
+  margin-bottom: 70px;
+}
+
+.hero-img {
+  width: 100px;
+  height: 100px;
+}
+
+.hero-heding {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.hero-text {
+  width: 330px;
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.678);
+  margin: 0;
+}
+
+@media only screen and (max-width: 1220px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .hero-list {
+    width: 380px;
+  }
+
+  .hero-item {
+    width: 300px;
+    text-align: center;
+  }
+
+  .hero-heding {
+    width: 330px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .hero-list {
+    width: 260px;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .hero-item {
+    width: 260px;
+    text-align: center;
+  }
+
+  .hero-heding {
+    width: 260px;
+  }
+
+  .hero-text {
+    width: 260px;
+  }
+}
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productive {
+  background-color: #1B2330;
+}
+
+.productive-content {
+  width: 1050px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productive-text-content {
+  width: 400px;
+}
+
+.productive-heading {
+  width: 345px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.productive-text {
+  width: 400px;
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.74);
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.productive-link {
+  text-decoration: none;
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 19px;
+  color: rgb(98, 224, 217);
+  border-bottom: 2px solid rgb(98, 224, 217);
+  padding-bottom: 7px;
+  position: relative;
+}
+
+.productive-link:hover {
+  color: aqua;
+  border-bottom: 2px solid aqua;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 2px;
+  right: -20px;
+}
+
+@media only screen and (max-width: 1220px) {
+  .productive-content {
+    width: 380px;
+    flex-direction: column;
+  }
+
+  .productive-img {
+    width: 380px;
+    height: 280px;
+  }
+
+  .productive-text-content {
+    text-align: center;
+    width: 380px;
+    margin-top: 50px;
+  }
+
+  .productive-heading {
+    width: 380px;
+  }
+
+  .productive-text {
+    width: 380px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .productive-content {
+    width: 260px;
+    flex-direction: column;
+  }
+
+  .productive-img {
+    width: 260px;
+    height: 160px;
+  }
+
+  .productive-text-content {
+    text-align: center;
+    width: 260px;
+    margin-top: 50px;
+  }
+
+  .productive-heading {
+    width: 260px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .productive-text {
+    width: 260px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-section {
+  background-color: #1B2330;
+}
+
+.box-list {
+  margin: 0;
+  list-style-type: none;
+  width: 1160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-item {
+  width: 360px;
+  height: 200px;
+  background-color: rgb(32, 42, 60);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px rgb(32, 42, 60);
+  border-radius: 10px;
+  transition: 0.6s ease;
+}
+
+.box-item:hover {
+  transform: scale(1.1);
+}
+
+.box-text {
+  width: 290px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.771);
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.profile-info {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 160px;
+}
+
+.profile-user {
+  width: 88px;
+}
+
+.profile-heading {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.profile-text {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: rgba(255, 255, 255, 0.771);
+  width: 110px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1220px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .box-list {
+    width: 260px;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .box-item {
+    width: 260px;
+    height: 160px;
+    margin-bottom: 40px;
+  }
+
+  .box-text {
+    width: 240px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .profile-info {
+    margin-left: 50px;
+  }
+}
+.form {
+  background-color: rgb(37, 49, 68);
+}
+
+.form-content {
+  width: 720px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-heading {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.form-text {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.form-mail {
+  width: 480px;
+  height: 48px;
+  border: 1px solid white;
+  border-radius: 24px;
+  margin-right: 30px;
+}
+
+.form-mail::-moz-placeholder {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(192, 192, 192);
+  padding-left: 40px;
+}
+
+.form-mail:-ms-input-placeholder {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(192, 192, 192);
+  padding-left: 40px;
+}
+
+.form-mail::placeholder {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(192, 192, 192);
+  padding-left: 40px;
+}
+
+.form-button {
+  width: 200px;
+  height: 48px;
+  border: 1px solid rgb(99, 225, 217);
+  border-radius: 24px;
+  background-color: rgb(99, 225, 217);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s ease;
+}
+
+.form-button:hover {
+  border: 1px solid rgb(52, 160, 205);
+  background-color: rgb(52, 160, 205);
+}
+
+.form-button:active {
+  border: 1px solid aquamarine;
+  background-color: aquamarine;
+}
+
+@media only screen and (max-width: 1225px) {
+  .container {
+    max-width: 440px;
+  }
+
+  .form {
+    background-color: rgb(37, 49, 68);
+  }
+
+  .form-content {
+    width: 360px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-mail {
+    width: 300px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .form-button {
+    width: 200px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .container {
+    max-width: 440px;
+  }
+
+  .form {
+    background-color: rgb(37, 49, 68);
+  }
+}
+@media only screen and (max-width: 585px) {
+  .container {
+    max-width: 322px;
+  }
+
+  .form {
+    background-color: rgb(37, 49, 68);
+  }
+
+  .form-content {
+    width: 220px;
+  }
+
+  .form-heading {
+    font-size: 18px;
+    line-height: 24px;
+    width: 220px;
+  }
+
+  .form-text {
+    width: 220px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .form-mail {
+    width: 200px;
+    height: 48px;
+  }
+
+  .form-button {
+    width: 200px;
+    height: 48px;
+  }
+
+  .buttons {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.footer {
+  background-color: rgb(11, 21, 36);
+}
+
+.footer-content {
+  max-width: 1300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.location-text {
+  width: 330px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.contacts {
+  margin-top: 85px;
+  width: 171px;
+  height: 65px;
+}
+
+.phone {
+  width: 171px;
+  display: flex;
+  align-items: center;
+}
+
+.tel {
+  text-decoration: none;
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  margin-left: 23px;
+}
+
+.mail {
+  margin-top: 15px;
+  width: 171px;
+  display: flex;
+  align-items: center;
+}
+
+.e-mail {
+  text-decoration: none;
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+  margin-left: 23px;
+}
+
+.footer-list {
+  list-style-type: none;
+  width: 120px;
+  padding: 0;
+  margin-top: 170px;
+}
+
+.footer-second-list {
+  list-style-type: none;
+  width: 120px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  margin-top: 170px;
+}
+
+.footer-item {
+  margin-bottom: 15px;
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+
+.links {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1225px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .footer-content {
+    width: 660px;
+    flex-direction: column;
+  }
+
+  .footer-list {
+    margin: 0;
+    margin-right: 250px;
+    margin-bottom: 30px;
+  }
+
+  .footer-second-list {
+    margin: 0;
+    margin-right: 250px;
+  }
+
+  .contacts {
+    width: 165px;
+    margin-top: 20px;
+    margin-right: 215px;
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .footer-content {
+    width: 340px;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .footer-list {
+    margin: 0;
+    margin-right: 250px;
+    margin-bottom: 30px;
+  }
+
+  .footer-second-list {
+    margin: 0;
+    margin-right: 250px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .footer-content {
+    width: 260px;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .footer-list {
+    margin: 0;
+    margin-bottom: 50px;
+    margin-right: 250px;
+  }
+
+  .footer-second-list {
+    margin: 0;
+    margin-right: 250px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .container {
+    max-width: 260px;
+  }
+
+  .footer-content {
+    width: 220px;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .footer-list {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+
+  .footer-second-list {
+    margin: 0;
+    margin-right: 50px;
+  }
+
+  .logo-size {
+    width: 220px;
+  }
+
+  .location-text {
+    margin-left: 20px;
+  }
+
+  .location {
+    width: 240px;
+  }
+
+  .contacts {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,140 @@
+.intro {
+  background-color: #1B2330;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.intro-content {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.intro-heading {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  width: 734px;
+  height: 120px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.intro-text {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 530px;
+  height: 90px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  margin-bottom: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-button {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 1);
+  padding: 18px 90px;
+  border: 1px solid rgba(99, 225, 217, 1);
+  background-color: rgba(99, 225, 217, 1);
+  border-radius: 28px;
+  transition: 0.5s ease;
+}
+
+.intro-button:hover {
+  background-color: rgba(52, 160, 205, 1);
+  border: 1px solid rgba(52, 160, 205, 1);
+}
+
+.intro-button:active {
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+
+@media only screen and (max-width: 1050px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .intro-content {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-img {
+    width: 380px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-heading {
+    width: 380px;
+    height: 80px;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .intro-text {
+    margin: 0;
+    width: 380px;
+    margin-bottom: 55px;
+  }
+}  
+
+@media only screen and (max-width: 560px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .intro-content {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-img {
+    width: 260px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro-heading {
+    width: 260px;
+    height: 110px;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .intro-text {
+    margin: 0;
+    width: 260px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .intro-button {
+    padding: 16px 80px;
+  }
+}  

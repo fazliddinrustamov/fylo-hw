@@ -1,0 +1,129 @@
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productive {
+  background-color: #1B2330;
+}
+
+.productive-content {
+  width: 1050px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productive-text-content {
+  width: 400px;
+}
+
+.productive-heading {
+  width: 345px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.productive-text {
+  width: 400px;
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.74);
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.productive-link {
+  text-decoration: none;
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(98, 224, 217, 1);
+  border-bottom: 2px solid rgba(98, 224, 217, 1);
+  padding-bottom: 7px;
+  position: relative;
+}
+
+.productive-link:hover {
+  color: aqua;
+  border-bottom: 2px solid aqua;
+  ;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 2px;
+  right: -20px;
+}
+
+@media only screen and (max-width: 1220px) {
+  .productive-content {
+    width: 380px;
+    flex-direction: column;
+  }  
+
+  .productive-img {
+    width: 380px;
+    height: 280px;
+  }
+
+  .productive-text-content {
+    text-align: center;
+    width: 380px;
+    margin-top: 50px;
+  }
+
+  .productive-heading {
+    width: 380px;
+  }
+
+  .productive-text {
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .productive-content {
+    width: 260px;
+    flex-direction: column;
+  }  
+
+  .productive-img {
+    width: 260px;
+    height: 160px;
+  }
+
+  .productive-text-content {
+    text-align: center;
+    width: 260px;
+    margin-top: 50px;
+  }
+
+  .productive-heading {
+    width: 260px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .productive-text {
+    width: 260px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
